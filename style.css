@@ -7,4 +7,7 @@ label{
     display: block;
     margin: 10px 10px 10px 0;
   }
-  input{}
+  input{
+    display: block;
+    height: 30px;
+  }
