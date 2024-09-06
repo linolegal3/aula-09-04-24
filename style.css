@@ -3,4 +3,8 @@ form {
     width: 500px;
     text-align: left;
 }
-
+label{
+    display: block;
+    margin: 10px 10px 10px 0;
+  }
+  input{}
