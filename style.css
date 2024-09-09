@@ -1,30 +1,54 @@
-form {
-    margin: 70px 0px 0px 500px;
-    width: 500px;
-    text-align: left;
+label {
+  display: block;
+  margin: 10px 0;
+  text-shadow: 3px 3px 3px black, 0 0 15px purple;
+  font-weight: bold;
 }
-label{
-    display: block;
-    margin: 10px 10px 10px 0;
-  }
-  input{
-    display: block;
-    height: 30px;
-  }
-  body{
-    background-color: black;
-    color: violet;
-  }
-  .bnt {
-    background-color: #3882c7;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    width: 120px;
-    font-weight: bold;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1em;
-    
-  }
+
+input {
+  display: block;
+  height: 30px;
+  width: 100%; /* Para melhorar o preenchimento */
+  max-width: 400px; /* Controla o tamanho máximo */
+  border-radius: 10px;
+  border-width: 3px;  
+  border-color: rgb(255, 37, 255);
+  border-style: solid; /* Adicionado para definir a borda */
+  padding: 5px;
+}
+
+body {
+  background-color: darkorchid;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.bnt {
+  background-color: #3882c7;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  text-shadow: 3px 6px 6px black;
+  margin-top: 20px;
+}
+
